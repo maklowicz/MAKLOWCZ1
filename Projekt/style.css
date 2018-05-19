@@ -1,0 +1,55 @@
+@media only screen and (max-width: 720px){
+	body {
+		margin: 0;
+		background-color: magenta;
+	}	
+}
+@media screen and (min-width: 720px){
+	body {
+		margin: 0;
+		background-color: dodgerblue;
+	}
+	.navigation{
+
+	}
+}
+@media screen and (min-width: 1280px){
+	body {
+		margin: 0;
+		background-color: lime;
+	}
+	.grid-container{
+		display: grid;
+		grid-template-columns: 10fr 90fr;
+		grid-template-rows:  100vh;
+	}
+}
+
+
+body{
+	font-family: sans-serif;
+}
+
+	
+.navigation ul{
+	margin: 0px;
+	padding: 0px;
+}
+.nav-tab{
+	height: 50px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+.nav-tab:hover{
+	border-bottom: 4px solid black;
+	background-color: pink;
+
+}
+
+
+

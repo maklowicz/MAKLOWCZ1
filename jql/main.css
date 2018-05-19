@@ -1,0 +1,61 @@
+*{
+	cursor: crosshair;
+	
+}
+body {
+	font-family: monospace;
+	margin: 0;
+}
+nav ul {
+	background-color: green;
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li:hover {
+	color: yellow;
+	font-weight: bold;
+	background-color: red;
+	cursor: pointer;
+}
+main {
+	margin: auto;
+	max-width: 60%;
+	text-align:justify;
+	color: red;
+	background-color:yellow;
+}
+nav {
+	position: sticky;
+	top: 0;
+}
+aside {
+	float: right;
+	height: 200px;
+	width: 100px;
+	background-color: grey;
+	color: red;
+}
+header {
+	text-align: center;
+}
+footer {
+	text-align: right;
+	color: purple;
+	background-color: pink;
+	font-size: 30px;
+} 
+aside:hover {
+	cursor: pointer;
+	color: yellow;
+	font-weight: bold;
+	background-color: red;
+
+}
+main:hover {
+	color: yellow;
+	font-weight: bold;
+	background-color: red;
+
+}

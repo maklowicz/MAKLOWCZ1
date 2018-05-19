@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>CSS 2 + JavaScript With Makłowicz</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script
+	src="http://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Papryka</h1>
+	</header>
+	<nav>
+		<ul>
+			<li id="nav1">papryczka 1</li>
+			<li id="nav2">papryczka 2</li>
+			<li id="nav3">papryczka 3</li>
+			<li id="nav4">papryczka 4</li>
+			<li id="plus">+</li>
+			<li id="minus">-</li>
+		</ul>
+	</nav>
+	<aside>
+		<img style="height: 100px" src="doit.gif">
+
+		<p>Odkrył sposób na zjedzienie Papryczek, Nienawidzą GO!!!!</p>
+		
+	</aside>
+	<main>
+
+		<center>
+			<input id="zapytanie" type="text" placeholder="makłowicz w papryczce" name="">
+			<input onclick="szukaj();" type="button" name="" value="Go!">
+		</center>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu quam, tristique id mi sed, hendrerit rutrum nunc. Proin orci leo, finibus nec odio in, finibus rutrum mauris. Vestibulum pretium velit id libero ultricies, id congue lectus lobortis. Sed dapibus vitae tortor non venenatis. Mauris feugiat eros tortor, in iaculis urna egestas vitae. Proin risus arcu, facilisis vel nisi et, iaculis dignissim nisi. Nulla vitae pulvinar diam. Nunc pharetra leo vitae velit finibus, ac lacinia ligula vulputate. Proin a condimentum mauris. Nullam pharetra, est sed imperdiet gravida, mauris eros lobortis elit, venenatis aliquam ex velit quis urna. Aliquam pellentesque odio quis hendrerit mollis.</p>
+
+		<p>Praesent eu nisl ipsum. Phasellus pulvinar faucibus mi eget blandit. Ut vel nisl lorem. Suspendisse ultricies vel quam sit amet consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ultricies, quam ac posuere vehicula, mauris nibh sollicitudin sem, vitae pulvinar urna orci et urna. Maecenas consequat tincidunt nulla viverra venenatis. Curabitur aliquet nunc a nisl consectetur, id varius neque dignissim. Nulla aliquet ligula vitae dui vehicula elementum. Vivamus sollicitudin odio finibus elit interdum ornare. Sed sem massa, faucibus eu suscipit eu, porttitor sed enim. Aliquam in elementum quam. Nullam id mauris volutpat, dignissim leo non, interdum tortor. Nunc non augue et eros tincidunt laoreet a id est. Mauris scelerisque iaculis sem ut aliquam. Sed sit amet mollis massa.</p>
+
+		<p>Morbi facilisis sit amet turpis sit amet fermentum. Sed non lorem ac lorem malesuada hendrerit. Nam viverra magna sem, vel cursus nisi tincidunt ac. Curabitur non sem eros. Proin eu dolor vitae sapien laoreet mattis eu nec turpis. Donec tincidunt pellentesque dui, quis mattis nulla elementum id. Donec venenatis, massa nec luctus placerat, erat elit congue ante, eu tincidunt tortor augue lobortis neque. Curabitur suscipit fringilla bibendum. In accumsan a lectus eget iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sollicitudin pretium ante imperdiet sagittis. Maecenas at commodo metus. Ut nec nulla rhoncus, rutrum nisi in, consectetur enim. Maecenas pellentesque tellus urna, id rutrum nulla eleifend vitae. Proin vel pretium augue. Integer vel blandit lorem, nec viverra nisi.</p>
+
+		<p>Morbi porttitor bibendum dapibus. Donec et libero mollis lectus varius fermentum. Pellentesque a pulvinar lacus. Integer mi elit, scelerisque vitae erat eu, porta placerat elit. Nullam tincidunt nec elit consectetur feugiat. Aenean ac lacus non purus luctus placerat sodales eu augue. Integer imperdiet sodales ante. Donec ut pretium augue. Vestibulum pellentesque et lectus sit amet porttitor. Donec maximus lacus eget lectus pharetra gravida. Praesent at dolor enim. Aliquam ullamcorper tristique ante, sit amet commodo eros. Aenean vulputate vel elit non finibus. Maecenas porta rutrum libero, vel commodo sem viverra quis.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu quam, tristique id mi sed, hendrerit rutrum nunc. Proin orci leo, finibus nec odio in, finibus rutrum mauris. Vestibulum pretium velit id libero ultricies, id congue lectus lobortis. Sed dapibus vitae tortor non venenatis. Mauris feugiat eros tortor, in iaculis urna egestas vitae. Proin risus arcu, facilisis vel nisi et, iaculis dignissim nisi. Nulla vitae pulvinar diam. Nunc pharetra leo vitae velit finibus, ac lacinia ligula vulputate. Proin a condimentum mauris. Nullam pharetra, est sed imperdiet gravida, mauris eros lobortis elit, venenatis aliquam ex velit quis urna. Aliquam pellentesque odio quis hendrerit mollis.</p>
+
+		<p>Praesent eu nisl ipsum. Phasellus pulvinar faucibus mi eget blandit. Ut vel nisl lorem. Suspendisse ultricies vel quam sit amet consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ultricies, quam ac posuere vehicula, mauris nibh sollicitudin sem, vitae pulvinar urna orci et urna. Maecenas consequat tincidunt nulla viverra venenatis. Curabitur aliquet nunc a nisl consectetur, id varius neque dignissim. Nulla aliquet ligula vitae dui vehicula elementum. Vivamus sollicitudin odio finibus elit interdum ornare. Sed sem massa, faucibus eu suscipit eu, porttitor sed enim. Aliquam in elementum quam. Nullam id mauris volutpat, dignissim leo non, interdum tortor. Nunc non augue et eros tincidunt laoreet a id est. Mauris scelerisque iaculis sem ut aliquam. Sed sit amet mollis massa.</p>
+
+		<p>Morbi facilisis sit amet turpis sit amet fermentum. Sed non lorem ac lorem malesuada hendrerit. Nam viverra magna sem, vel cursus nisi tincidunt ac. Curabitur non sem eros. Proin eu dolor vitae sapien laoreet mattis eu nec turpis. Donec tincidunt pellentesque dui, quis mattis nulla elementum id. Donec venenatis, massa nec luctus placerat, erat elit congue ante, eu tincidunt tortor augue lobortis neque. Curabitur suscipit fringilla bibendum. In accumsan a lectus eget iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sollicitudin pretium ante imperdiet sagittis. Maecenas at commodo metus. Ut nec nulla rhoncus, rutrum nisi in, consectetur enim. Maecenas pellentesque tellus urna, id rutrum nulla eleifend vitae. Proin vel pretium augue. Integer vel blandit lorem, nec viverra nisi.</p>
+
+		<p>Morbi porttitor bibendum dapibus. Donec et libero mollis lectus varius fermentum. Pellentesque a pulvinar lacus. Integer mi elit, scelerisque vitae erat eu, porta placerat elit. Nullam tincidunt nec elit consectetur feugiat. Aenean ac lacus non purus luctus placerat sodales eu augue. Integer imperdiet sodales ante. Donec ut pretium augue. Vestibulum pellentesque et lectus sit amet porttitor. Donec maximus lacus eget lectus pharetra gravida. Praesent at dolor enim. Aliquam ullamcorper tristique ante, sit amet commodo eros. Aenean vulputate vel elit non finibus. Maecenas porta rutrum libero, vel commodo sem viverra quis.</p>
+
+		<p>Etiam sit amet ipsum ac nisl tincidunt accumsan id eu magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus condimentum risus quis consequat tempus. Duis justo orci, feugiat vel justo at, elementum varius erat. Curabitur non nisl ut eros tristique vehicula at id dolor. Phasellus ut tellus id orci facilisis consequat quis at sapien. Fusce elit libero, consectetur id risus ut, varius imperdiet eros.</p>
+	</main>
+
+	<footer>By Makłowicz </footer>
+
+
+
+ </script>
+</body>
+</html>

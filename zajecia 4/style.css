@@ -1,0 +1,46 @@
+*{/* Rodzaij 1 odwołania*/
+	font-family: monospace;
+}
+h1{/* Rodzaij 2 odwołania*/
+	font-size: 50px;
+	color: fuchsia;
+}
+main {/* Rodzaij 2 odwołania*/
+	color: red;
+}
+main div{
+	display: inline-block;
+}
+p {
+	color: blue;
+}
+.kwadrat {/* rodzaj 3 odwołania*/
+	background-color: dodgerblue;
+	height: 200px;
+	width:  200px;
+	margin: 2px;
+}
+#jeden{
+	background-color: pink;
+
+	font-size: 40px;
+}
+main p{
+	color: red;
+}
+img{
+
+	border-radius: 200%;
+}
+img:hover{
+	border-radius: 20%;
+}
+img {
+	height: 100px;
+}
+header{
+	border: 2px solid blue;
+	border:20px dotted blue;
+	position: sticky;
+	top:0;
+}
